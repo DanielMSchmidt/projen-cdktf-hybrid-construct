@@ -1,0 +1,14 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node main.ts",
+  "projectId": "0111bdb9-d0ee-44fb-b5aa-aab6a9187d08",
+  "terraformProviders": [],
+  "terraformModules": [
+    "JamesWoolfenden/artifactory/aws@~> 0.0.54",
+    "terraform-aws-modules/vpc/aws@~> 3.14.0"
+  ],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}

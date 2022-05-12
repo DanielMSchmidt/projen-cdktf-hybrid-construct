@@ -224,6 +224,15 @@
         }
       ]
     },
+    "setup-infrastructure": {
+      "name": "setup-infrastructure",
+      "steps": [
+        {
+          "exec": "yarn ; cdktf get ; cdktf deploy --auto-approve"
+        }
+      ],
+      "cwd": "./infrastructure"
+    },
     "test": {
       "name": "test",
       "description": "Run tests",
